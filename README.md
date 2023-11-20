@@ -1,110 +1,71 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# About
+  Thailand guiding light is a social network media website allowing customers who love to travel to Thailand or live in Thailand to share their passion. They can also view, comment, like, share pictures, share external content, videos or literary posts, and connect and navigate to other social links or websites. It is a platform to sell goods online, promote brands add businesses, create a network and improve communication to find people who share their same interests online.
+  The website allows users and organizations to connect, communicate, and share information and relationships. People can connect with others in the same area, families, friends, and those with the same interests. Also, eCommerce customers advertise and navigate the customer to their website. It has a login system; The website has a personnel functionality that allows the admin and user to edit and manage their account.     
+ 
+# UX  
+  The website was created to be eye-catching and user-friendly. The user is given a simple procedure when they want to share their experience picture and videos. The emphasis is on the user experience. The user can navigate the website easily to fulfil the user's goal; the website is designed to be ready to use and easy to understand.
 
-Welcome Wanwisa Waddington ,
+# Target Audience
+  A Thailand guiding light target audience refers to a group of people that want to share Their passion for travel and living in Thailand. This group will have specific shared characteristics that connect them and make them relevant to their friends, relatives, customers and colleagues. You can find people who share their same interests online, sell goods online, and promote brands and businesses as well.
+## User Story ## 
+ ### As a user ###
+  - First time user 
+    - As a First Time Visitor, I want to quickly understand the app's primary purpose so that I can learn more about how to get benefit from this app.
+    - As a First Time Visitor, I want to navigate through the app to find the content easily.
+    - As a First Time Visitor, I want to find this useful for my needs.
+    - As a First Time Visitor, I want to be able to easily  to create an account by providing basic information such as my name, email address , and password.
+    - As a First Time Visitor, I want to be informed if I am making any errors when create my account so that I can fix any mistakes quickly.
+    - As a Firs Time Visitor, I want to have a personalized profile where I can add a profile picture, cover photo, and write a bio to introduce myself to others.
+    - As a First Time Visitor, I want to see the variety of places in Thailand that are most valuable to visit.
+    - As a First Time Visitor, I want to share my photo, videos, and comment on a beautiful place in Thailand.
+    - As a First Time Visitor, I want to quickly and easily connect to people and link them to book the holiday trip (Hotel, Flight, Taxi, Guide, and All facilities).
+    - As a First Time Visitor, I want to be able to access social media websites from various devices, such as desktop computers and smartphones, with a consistent user experience.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+  - Regular User (customer)
+     - As a Regular User, I want to access my account without having to log in every time so that I can quickly 
+     post and share pictures, videos, and short stories.
+    - As a Regular User, I want to safely protect my account details from sharing pictures, videos and short stories.
+    - As a Regular User, I want to view my data to quickly check my account details and add or amend the information.
+    - As a Regular User, I want to be able to search for a connection with a friend, a place or a relative story by name, username, or email address to get the most appropriate choices so that I am likely to find what I am looking for.
+    - As a Regular User, I want to send post updates, photos, external content and videos to share with my connector.
+    - As a Regular User, I want to be able to search for people, places, and relevant organizations by text search so that I can connect to communicate with them.
+    - As a Regular User, I want to see ratings and reviews on a photo or videos, the story of the place that the experiencer shares.
+    - As a regular User, I want to customize my news post and have control over the privacy of my posts, being able to choose who can see them.
+    - As a regular User, I want to be notified when someone interacts with my posts or sends me a message, so I can stay engaged and respond promptly.
+    - As a regular User, I want to be able to report or block other users for inappropriate behaviour, ensuring a safe and respectful community,
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+# Wire frames
+ ## Laptop
+ ![Wireframe Laptop1](documentation/wireframe-laptop1.png)
 
-## Gitpod Reminders
+![Wireframe Laptop2](documentation/wireframe-laptop2.png)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+![Wireframe Laptop3](documentation/wireframe-laptop3.png)
 
-`python3 -m http.server`
+![Wireframe Laptop Full Page](documentation/wireframe-laptop-fullpage.png)
 
-A blue button should appear to click: _Make Public_,
+ ## Mobile
 
-Another blue button should appear to click: _Open Browser_.
+ ![Wireframe Mobile1](documentation/wireframe-mobile-phone1.png)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+ ![Wireframe Mobile2](documentation/wireframe-mobile-phone2.png)
 
-A blue button should appear to click: _Make Public_,
+# Workflow
 
-Another blue button should appear to click: _Open Browser_.
+![Workflow Picture](documentation/workflow-picture.png)
+ 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**September 20 2023:** Update Python version to 3.9.17.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+    
