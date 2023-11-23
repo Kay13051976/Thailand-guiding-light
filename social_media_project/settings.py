@@ -31,7 +31,9 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['thailand-guiding-light.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['8000-kay13051976-thailandgui-v49w19nhxp9.ws-eu106.gitpod.io',
+                 'thailand-guiding-light.herokuapp.com', 
+                 'localhost']
 
 
 # Application definition
