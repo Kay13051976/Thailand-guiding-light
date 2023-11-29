@@ -1,7 +1,8 @@
 # Thailand Guiding Light
-  Thailand Guiding Light is a social network media website allowing customers who love to travel to Thailand or live in Thailand to share their passion. They can also view, comment, like, share pictures, share external content, videos or literary posts, and connect and navigate to other social links or websites. It is a platform to sell Thailand travel packages online, promote Thailand tour businesses, and sell all tourist-relevant products or businesses. The user can create a network and improve communication to find people with similar interests online.
-  The website allows users and organizations to connect, communicate, and share information and relationships. People can connect with others in the same area or worldwide, families, friends, and those with the same interests. Also, eCommerce customers advertise and navigate the customer to their website. It has a login system. The website has a personal functionality that allows the admin and user to edit and manage their account.     
- 
+  
+  Thailand Guiding Light is a social network media website allowing customers who love to travel to Thailand or live in Thailand to share their passion. They can also view, comment, like, share pictures, share external content, videos or literary posts, and connect and navigate to other social links or websites. It is a platform to sell Thailand travel packages online, promote Thailand tour businesses, and sell all tourist-relevant firms or products by navigating the user to their website. The user can create a network and improve communication to find people with similar interests online.
+  The website allows users and organizations to connect, communicate, and share information and relationships. People can connect with others in the same area or worldwide, families, friends, and those with the same interests. Also, eCommerce customers advertise and navigate the customer to their website. It has a login system. The website has a personal functionality that allows the admin and user to edit and manage their account.  
+  
 ## UX  
   The website was created to be eye-catching and user-friendly. The user is given a simple procedure when they want to share their experience picture and videos. The emphasis is on the user experience. The user can navigate the website easily to fulfil the user's goal; the website is designed to be ready to use and easy to understand.
 
@@ -17,14 +18,13 @@
   - As a First Time Visitor, I want to be able to easily  to create an account by providing basic information such as my name, email address , and password.
   - As a First Time Visitor, I want to be informed if I am making any errors when create my account so that I can fix any mistakes quickly.
   - As a Firs Time Visitor, I want to have a personalized profile where I can add a profile picture, cover photo, and write a bio to introduce myself to others.
-  - As a First Time Visitor, I want to see the variety of places in Thailand that are most valuable to visit.
+  - As a First Time Visitor, I want to see the variety of places in Thailand, such as images, VDO, and short stories that are most valuable to visit.
   - As a First Time Visitor, I want to share my photo, videos, and comment on a beautiful place in Thailand.
   - As a First Time Visitor, I want to quickly and easily connect to people and link them to book the holiday trip (Hotel, Flight, Taxi, Guide, and All facilities).
   - As a First Time Visitor, I want to be able to access social media websites from various devices, such as desktop computers and smartphones, with a consistent user experience.
 
 - Regular User (customer)
-  - As a Regular User, I want to access my account without having to log in every time so that I can quickly 
-     post and share pictures, videos, and short stories.
+  - As a Regular User, I want to access my account without having to log in every time so that I can quickly post and share pictures, videos, and short stories.
   - As a Regular User, I want to safely protect my account details from sharing pictures, videos and short stories.
   - As a Regular User, I want to view my data to quickly check my account details and add or amend the information.
   - As a Regular User, I want to be able to search for a connection with a friend, a place or a relative story by name, username, or email address to get the most appropriate choices so that I am likely to find what I am looking for.
