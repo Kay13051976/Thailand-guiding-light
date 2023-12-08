@@ -129,6 +129,10 @@
 
 ![Workflow Picture](documentation/workflow-picture.png)
  
+
+ ## Future Development
+ - Chat bot
+
 ## Technologies used
  
 ### Languages
@@ -155,6 +159,7 @@
  - [Render](https://pypi.org/project/render/):was used to render the README file.
  - [GitHub](https://github.com/):used to host the website's source code.
  - [GitPod](https://www.gitpod.io/):the IDE used to develop the website.
+ - [Cloudinary](https://cloudinary.com/):was used to store all the images for the website.
  - [Chrome Devtools](https://developer.chrome.com/docs/devtools/open/):was used to debug the website.
  - [Font Awesome](https://fontawesome.com/icons):was used to create the icons used in the website.
  - [Lucidchart](https://www.lucidchart.com/pages/):was used to make a flowchart for the README file.
@@ -165,6 +170,58 @@
  - [PEP8](https://pep8.org/):was used to validate Python code for the website.
  - [Privacy Policy Generator](https://www.privacypolicygenerator.info/):was used to create the privacy policy.
  - [Django-extensions](https://django-extensions.readthedocs.io/en/latest/):was used to create a Entity-Relationship Diagram.
+ - [iStock by Getty Images](https://www.istockphoto.com/):was used to get background images and all the images for the website.
+
+ ## Features
+ Please refer to the [FEATURES.md]()file for all test-related documentation.
+- []()
+ ## design
+- []()
+ ### Color Scheme
+- []()
+ ### Typography
+- []()
+### Imagery
+- []()
+
+## Agile Methodology
+- []()
+## Flowcharts
+- []()
+
+## Information Architecture
+
+### Database
+- Doing the earliest stages of the project, the database was created using SQLite.
+- The database was then migrated to PostgreSQL.
+
+**Entity-Relationship Diagram**
+
+![Entity-Relationship Diagram image]()
+
+### Data Modeling
+
+
+## Testing
+- Please refer to the [TESTING.md]()file for all test-related documentation.
+
+
+## Deployment 
+- The app was deployed to[Heroku](https://thailand-guiding-light-2fb0b0e33db8.herokuapp.com/)
+- The database was deployed to [ElephantSQL](https://www.elephantsql.com/)
+- The app can be reached by the [link]()
+
+## Credits
+
+## Content and Images
+- [iStock by Getty Images](https://www.istockphoto.com/)
+
+## Acknowledgments
+- Code Institute tutor and Slack community members for their support and help.
+- Code Institute mentor Julia Konovalova for her advice
+- Pook Pak wiht an Entity-Relationship Diagram explanation.
+
+
 
 
 
