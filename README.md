@@ -197,7 +197,7 @@
 
 **Entity-Relationship Diagram**
 
-![Entity-Relationship Diagram image]()
+![Entity-Relationship Diagram image](documentation/entity-relationship-diagram-image.png)
 
 ### Data Modeling
 
