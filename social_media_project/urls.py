@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path,include
-from hello_world import views as index_views
+from social_media_log import views as index_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
