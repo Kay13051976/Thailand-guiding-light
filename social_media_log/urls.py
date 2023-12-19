@@ -1,6 +1,6 @@
 from django.urls import path
-from myapp import views 
+from social_media_project import views 
 
 urlpatterns = [
-    path('',view.index)
+    path('',views.index)
 ]
