@@ -18,5 +18,7 @@ from django.urls import path,include
 from social_media_log import views as index_views
 
 urlpatterns = [
-    path('', index_views.index, name='index')
+    path('', index_views.index, name='index'),
+    # path('', about_views.about, name='about'),
+    # path('', signup_views.signup, name='signup')
 ]
