@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'cloudinary',
     'social_media_log',
+    'sign_up',
 ]
 
 MIDDLEWARE = [
