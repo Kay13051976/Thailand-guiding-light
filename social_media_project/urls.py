@@ -19,4 +19,5 @@ from django.urls import path,include
 
 urlpatterns = [
     path('', include('sign_up.urls')),
+    path('',include('usersapp.urls'))
 ]
