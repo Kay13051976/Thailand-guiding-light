@@ -28,6 +28,7 @@
       "Cloudinary",
       "gunicorn",
       "herokuapp",
+      "usersapp",
       "wsgi"
    ]
 }
