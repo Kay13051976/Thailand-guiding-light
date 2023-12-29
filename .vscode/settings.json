@@ -28,6 +28,7 @@
       "Cloudinary",
       "gunicorn",
       "herokuapp",
+      "thailandgui",
       "usersapp",
       "wsgi"
    ]
