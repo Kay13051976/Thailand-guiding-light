@@ -5,7 +5,7 @@ from django.db import models
 class Register(models.Model):
     username = models.CharField(max_length=50)
     email = models.EmailField(unique=True)
-    phone = models.CharField(max_length=50)
+    password = models.CharField(max_length=50)
 
 # class YourAccount(models.Model):
 #     your_account_id = ShortUUIDField(length=7, max_length=25, alphabet='abcdefghijklmnopqrstuvwxyz')
