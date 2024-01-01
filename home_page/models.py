@@ -19,13 +19,13 @@ class Post(models.Model):
     
     
     class Meta:
-    ordering = ['-created_on']
+        ordering = ['-created_on']
     
     def __str__(self):
-    return self.title
+        return self.title
 
     def number_of_hearts(self):
-    return self.likes.count()
+        return self.likes.count()
 
 class Comment(models.Model):
     post = models.ForeignKey(Post,on_delete-models.CASCADE, related_name='comments')
