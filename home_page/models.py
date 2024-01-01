@@ -16,13 +16,15 @@ class Post(models.Model):
     created_on = models.DateTimeField(auto_now_add=True)
     status = models.IntegerField(choices=STATUS, default=0)
     heart = models.ManyToManyField(User, related_name='home_page_hearts', blank=True)
-class Meta:
+    
+    
+    class Meta:
     ordering = ['-created_on']
     
-def __str__(self):
+    def __str__(self):
     return self.title
 
-def number_of_hearts(self):
+    def number_of_hearts(self):
     return self.likes.count()
 
 class Comment(models.Model):
