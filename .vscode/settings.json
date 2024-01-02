@@ -28,6 +28,7 @@
       "Cloudinary",
       "gunicorn",
       "herokuapp",
+      "summernote",
       "thailandgui",
       "usersapp",
       "wsgi"
