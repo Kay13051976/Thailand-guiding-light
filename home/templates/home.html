@@ -19,6 +19,32 @@
     </div>
   </div>
   <div class="card mb-3 m-5 p-5">
+    {% for post in post_list %}
+    {% if "placeholder" in post.featured_image.url %}
+    <img
+      src="https://media.istockphoto.com/id/1282649181/es/foto/pareja-joven-en-m%C3%A1scara-de-snorkel-buceo-bajo-el-agua-en-el-mar-tropical.jpg?s=1024x1024&w=is&k=20&c=emMgsuc5jnq7AN4_zdjPIcUdobcz8u0guPtRBc4RbU4="
+      class="card-img-top"
+      alt="..."
+    />
+    {% endif %}
+    <div class="card-body">
+      <h5 class="card-title">{{ post.auther }}</h5>
+      <p class="card-text">
+        {{ post.title }}
+      </p>
+      <p class="card-text">
+        <small class="text-muted">{{ post.excerpt}}</small>
+      </p>
+      <a href="">
+        <h2>{{ post.created_on }}</h2>
+        <p>{{ post.number_of_like }}</p>
+      </a>
+    </div>
+    {% if forloop.counter|divisibleby:3 %}
+    {% endif %}
+    {% endfor %}
+  </div>
+  <div class="card mb-3 m-5 p-5">
     <img
       src="https://media.istockphoto.com/id/1282649181/es/foto/pareja-joven-en-m%C3%A1scara-de-snorkel-buceo-bajo-el-agua-en-el-mar-tropical.jpg?s=1024x1024&w=is&k=20&c=emMgsuc5jnq7AN4_zdjPIcUdobcz8u0guPtRBc4RbU4="
       class="card-img-top"
