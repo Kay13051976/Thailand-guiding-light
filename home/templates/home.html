@@ -6,14 +6,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Social Media Project Home page</title>
 </head>
 <body>
 {% block title %} HOME PAGE {% endblock %} 
 {% block content %}
 <div class="card">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
+    <a href="#">
+      <i class="fa-solid fa-user-tie"></i>
+    </a>
+    <h5 class="card-title">Paul Waddington</h5>
     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
   </div>
@@ -26,8 +29,11 @@
   <p class="class-title">{{ post.excerpt }}</p>
   </a>
   <hr />
-  <p class="card-text text-muted h6"> {{ post.created_on }}
+  <p class="card-text text-muted h6 m-3"> {{ post.created_on }}
   <i class="fa-solid fa-heart"></i>{{ post.number_of_like }}
+  <i class="fa-solid fa-comment-pen"></i>
+  <i class="fa-regular fa-people-arrows"></i>
+  <i class="fa-solid fa-share-from-square"></i>
   </p>
   </div>
 </div>

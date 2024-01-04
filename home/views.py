@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.views import generic
-from home.models import Post
+from .models import Post
 from django.template.response import TemplateResponse
 
 class PostList(generic.ListView):
